@@ -7,9 +7,13 @@
     <meta property="og:site_name" content="Eastwatch App" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://eastwatchapp.com/" />
-    <meta property="og:description" content="Eastwatch is a TV show tracker app, powered by Trakt.tv. With Eastwatch app, you can: - Trakt the TV shows you are watching. - Share your favorite episode to anywhere in a format you like. - Checkout information of any TV shows or episodes." />
+    <meta property="og:description" content="Eastwatch is a TV show tracker app, powered by Trakt.tv. With Eastwatch app, you can: - Trakt the TV shows you are watching. - Share your favorite episode to anywhere in a format you like. - Checkout information of any TV shows or episodes."
+    />
+    <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @font-face {
@@ -19,10 +23,12 @@
 
         html {
             font-size: 1rem;
-            
         }
 
-        body, button {
+        body,
+        button,
+        p,
+        a {
             color: white;
             font-family: 'SF-Pro-Text', Arial;
         }
@@ -36,6 +42,10 @@
         button:active {
             color: #5EA6FF;
             background: white;
+        }
+
+        a {
+            text-decoration: none;
         }
 
         @include media-breakpoint-up(sm) {
@@ -62,7 +72,7 @@
     <div class="container">
         <div class="row" style="min-height: 100vh; padding: 10vh 0;">
             <div class="col align-self-center">
-                <div class="row" style="padding: 0 15px 15px 15px;">
+                <div class="row align-items-center" style="padding: 0 15px 15px 15px;">
                     <div class="col">
                         <div class="row" style="margin-bottom: 2vh;">
                             <form action="https://testflight.eastwatchapp.com" method="get">
@@ -79,6 +89,20 @@
                         <div class="row">
                             <p class="h4">Let the watch begin.</p>
                         </div>
+                    </div>
+                    <div class="col-12 col-md-auto" style="padding-right: 50px; border-left: 1px white solid;">
+                        <p style="margin: 0;">
+                            Feedback:
+                            <br>
+                            <a href="https://t.me/joinchat/BM0TEVAnd69-wmZ9f5prsQ" target="_blank">
+                                <i class="fab fa-telegram-plane"></i> Telegram</a>
+                            <br>
+                            <a href="https://twitter.com/eastwatchapp" target="_blank">
+                                <i class="fab fa-twitter"></i> Twitter</a>
+                            <br>
+                            <a href="mailto:qizengtai@gmail.com" target="_blank">
+                                <i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+                        </p>
                     </div>
                 </div>
                 <div class="row">
