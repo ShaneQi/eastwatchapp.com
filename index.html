@@ -2,9 +2,15 @@
 <html lang="en">
 
 <head>
-    <title>Eastwatch</title>
+    <title>Eastwatch App</title>
+    <meta property="og:title" content="Get Eastwatch" />
+    <meta property="og:site_name" content="Eastwatch App" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eastwatchapp.com/" />
+    <meta property="og:description" content="Eastwatch is a TV show tracker app, powered by Trakt.tv. With Eastwatch app, you can: - Trakt the TV shows you are watching. - Share your favorite episode to anywhere in a format you like. - Checkout information of any TV shows or episodes." />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @font-face {
             font-family: SF-Pro-Text;
@@ -19,6 +25,17 @@
         body, button {
             color: white;
             font-family: 'SF-Pro-Text', Arial;
+        }
+
+        button {
+            cursor: pointer;
+            background: transparent;
+            border: solid white;
+        }
+
+        button:active {
+            color: #5EA6FF;
+            background: white;
         }
 
         @include media-breakpoint-up(sm) {
@@ -49,7 +66,7 @@
                     <div class="col">
                         <div class="row" style="margin-bottom: 2vh;">
                             <form action="https://testflight.eastwatchapp.com" method="get">
-                                <button style="background: transparent; border: solid white;">
+                                <button>
                                     <p class="h3" style="margin: 0; padding: 5px 15px;">Get TestFlight</p>
                                 </button>
                             </form>
