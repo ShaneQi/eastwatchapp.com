@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Eastwatch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous" />
+    <style>
+        @font-face {
+            font-family: SF-Pro-Text;
+            src: url(SF-Pro-Text-Regular.otf);
+        }
+
+        html {
+            font-size: 1rem;
+            
+        }
+
+        body, button {
+            color: white;
+            font-family: 'SF-Pro-Text', Arial;
+        }
+
+        @include media-breakpoint-up(sm) {
+            html {
+                font-size: 1.2rem;
+            }
+        }
+
+        @include media-breakpoint-up(md) {
+            html {
+                font-size: 1.4rem;
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            html {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body style="background: linear-gradient(to bottom right, #5EA6FF, #787EFF)">
+    <div class="container">
+        <div class="row" style="min-height: 100vh; padding: 10vh 0;">
+            <div class="col align-self-center">
+                <div class="row" style="padding: 0 15px 15px 15px;">
+                    <div class="col">
+                        <div class="row" style="margin-bottom: 2vh;">
+                            <form action="https://testflight.eastwatchapp.com" method="get">
+                                <button style="background: transparent; border: solid white;">
+                                    <p class="h3" style="margin: 0; padding: 5px 15px;">Get TestFlight</p>
+                                </button>
+                            </form>
+                        </div>
+
+                        <div class="row">
+                            <h1 class="display-4">Eastwatch</h1>
+                        </div>
+
+                        <div class="row">
+                            <p class="h4">Let the watch begin.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img width="100%" src="./screenshot_1.png" />
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img width="100%" src="./screenshot_2.png" />
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img width="100%" src="./screenshot_3.png" />
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img width="100%" src="./screenshot_4.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
